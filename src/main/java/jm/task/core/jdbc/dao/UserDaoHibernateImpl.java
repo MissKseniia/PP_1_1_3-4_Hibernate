@@ -27,7 +27,7 @@ public class UserDaoHibernateImpl implements UserDao {
                 " (id bigint not null auto_increment primary key," +
                 " name varchar(10)," +
                 " lastName varchar(15)," +
-                " age TINYINT)", tableName);
+                " age tinyint)", tableName);
         doTransaction(sql);
     }
 
